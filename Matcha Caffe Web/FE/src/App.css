@@ -1,0 +1,14 @@
+/* Reset total untuk seluruh aplikasi */
+html, body, #root {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-height: 100vh;
+  overflow-x: hidden;
+  display: block !important; /* Mematikan flex/grid bawaan */
+}
+
+* {
+  box-sizing: border-box;
+}
